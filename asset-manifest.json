@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/opandey007/calculator_app/static/css/main.96e7c529.css",
+    "main.js": "/opandey007/calculator_app/static/js/main.03b25a80.js",
+    "index.html": "/opandey007/calculator_app/index.html",
+    "main.96e7c529.css.map": "/opandey007/calculator_app/static/css/main.96e7c529.css.map",
+    "main.03b25a80.js.map": "/opandey007/calculator_app/static/js/main.03b25a80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96e7c529.css",
+    "static/js/main.03b25a80.js"
+  ]
+}
