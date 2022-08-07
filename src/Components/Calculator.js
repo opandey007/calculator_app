@@ -22,19 +22,24 @@ export default function Calculator({
         <input type="text" defaultValue={result} ref={inputRef} />
       </form>
       <div className="key_pad">
-        <button name="7" onClick={handleSelect}>
+        <button data-testid="button" name="7" onClick={handleSelect}>
           7
         </button>
-        <button name="8" onClick={handleSelect}>
+        <button data-testid="button" name="8" onClick={handleSelect}>
           8
         </button>
-        <button name="9" onClick={handleSelect}>
+        <button data-testid="button" name="9" onClick={handleSelect}>
           9
         </button>
-        <button name="+" onClick={handleSelect} className="same_color">
+        <button
+          data-testid="button"
+          name="+"
+          onClick={handleSelect}
+          className="same_color"
+        >
           +
         </button>
-        <button name="4" onClick={handleSelect}>
+        <button data-testid="button" name="4" onClick={handleSelect}>
           4
         </button>
         <button name="5" onClick={handleSelect}>
